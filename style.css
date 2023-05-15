@@ -31,7 +31,7 @@
     background-color: #0fc02d;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 15px 25px;
     font-size: 16px;
     font-weight: bold;
@@ -80,7 +80,7 @@
     color: #0fc02d;
     border: 2px solid #0fc02d;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 16px;
     font-weight: bold;
   }  
@@ -124,35 +124,44 @@
     padding: 20px;
   }
 
-  #why  {
-    background-color: black;
-    color: white;
-  }
-
   #why {
-    /* background-color: #242020; */
+    margin-top: 25px;
+    background-color: black;
+    color: white;    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     padding: 50px;
   }
 
   #why h1 {
+    background-color: black;
+    color: white;
     font-size: 40px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
   }
   
   #why p {
+    background-color: black;
+    color: white;
     font-size: 18px;
     text-align: center;
     margin-bottom: 40px;
+  }
+
+  .award {
+    background-color: black;
+    color: white;
+   
   }
   
   .secure,
   .reliable,
   .dedicated {
+    background-color: black;
+    color: white;
     width: 30%;
     margin: 0 20px;
   }
@@ -160,6 +169,8 @@
   .secure h3,
   .reliable h3,
   .dedicated h3 {
+    background-color: black;
+    color: white;
     font-size: 24px;
     margin-bottom: 20px;
   }
@@ -167,8 +178,10 @@
   .secure p,
   .reliable p,
   .dedicated p {
+    background-color: black;
+    color: white;
     font-size: 18px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
 
   .wrapper {
@@ -187,23 +200,36 @@
 
 .wrapper img {
     max-width: 100%;
-    /* height: auto; */
-    width: 731px;
-    height: 936px;
+    width: 600px;
+    height: 600px;
+    margin-right: 100px;
+    margin-top: 100px;
 }
-  /* .image {
-    float: right;
-    margin-left: 20px;
-    margin-top: 20px;
-  }
-   */
-  /* .image {
-    position: absolute;
-    align-items: right;
-     */
-/* width: 1260px;
-height: 637px;
-left: 126px;
-top: 705px; */
 
-  /* } */
+button .btn {
+    background-color: #fff;
+    color: #0fc02d;
+
+
+ 
+  }
+
+  #demo {
+    background-color: #0fc02d;
+    color: #fff;
+    border: 2px solid;
+    padding: 20px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+
+  }   
+
+   .button i {
+    margin-left: 10px;
+    font-size: 18px;
+    background-color: #0fc02d;
+    color: #fff;
+
+  }
