@@ -112,6 +112,8 @@
 
   .grid-container {
     display: grid;
+    background-color: #F5F5F5;
+
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
@@ -121,7 +123,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: #F5F5F5;
     padding: 20px;
   }
 
