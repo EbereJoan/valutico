@@ -127,7 +127,7 @@
 
   #why {
     margin-top: 55px;
-    background-color: black;
+    background-color: #111111;
     color: #fff;
     display: flex;
     flex-wrap: wrap;
@@ -138,7 +138,7 @@
   }
   
   .award {
-    background-color: black;
+    background-color: #111111;
     color: white;
     text-align: left;
     margin-bottom: 20px;
@@ -146,20 +146,20 @@
   }
   
   .award h1 {
-    background-color: black;
+    background-color: #111111;
     color: white;
     font-size: 36px;
   }
   
   .award p {
-    background-color: black;
+    background-color: #111111;
     color: white;
     font-size: 18px;
     line-height: 1.5;
   }
   
   .flex {
-    background-color: black;
+    background-color: #111111;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -169,7 +169,7 @@
   }
   
   .flex > div {
-    background-color: black;
+    background-color: #111111;
     color: white;
     flex: 1;
     max-width: 300px;
@@ -178,14 +178,14 @@
   }
   
   .flex h3 {
-    background-color: black;
+    background-color: #111111;
     color: white;
     font-size: 24px;
     margin-bottom: 10px;
   }
   
   .flex p {
-    background-color: black;
+    background-color: #111111;
     color: white;
     font-size: 16px;
     line-height: 1.5;
@@ -210,7 +210,7 @@
     max-width: 100%;
     width: 600px;
     height: 600px;
-    margin-right: 100px;
+    margin-right: 200px;
     margin-top: 100px;
 }
 
@@ -231,7 +231,7 @@ button .btn {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    margin-left: 800px;
+    margin-left: 700px;
     margin-top: 40px;
 
   }   
