@@ -125,64 +125,71 @@
   }
 
   #why {
-    margin-top: 25px;
+    margin-top: 55px;
     background-color: black;
-    color: white;    
+    color: #fff;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    /* align-items: center; */
-    padding: 50px;
-  }
-
-  #why h1 {
-    background-color: black;
-    color: white;
-    font-size: 40px;
-    text-align: left;
-    margin-bottom: 20px;
+    justify-content: left;
+    align-items: left;
+    padding: 50px 0;
+    
   }
   
-  #why p {
-    background-color: black;
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-
   .award {
     background-color: black;
     color: white;
-   
-  }
-  
-  .secure,
-  .reliable,
-  .dedicated {
-    background-color: black;
-    color: white;
-    width: 30%;
-    margin: 0 20px;
-  }
-  
-  .secure h3,
-  .reliable h3,
-  .dedicated h3 {
-    background-color: black;
-    color: white;
-    font-size: 24px;
+    text-align: left;
     margin-bottom: 20px;
+    margin-left: 40px;
   }
   
-  .secure p,
-  .reliable p,
-  .dedicated p {
+  .award h1 {
+    background-color: black;
+    color: white;
+    font-size: 36px;
+  }
+  
+  .award p {
     background-color: black;
     color: white;
     font-size: 18px;
-    margin-bottom: 20px;
+    line-height: 1.5;
   }
+  
+  .flex {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+    margin-left: 20px;
+  }
+  
+  .flex > div {
+    background-color: black;
+    color: white;
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .flex h3 {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .flex p {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
 
   .wrapper {
     display: flex;
@@ -223,6 +230,8 @@ button .btn {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
+    margin-left: 800px;
+    margin-top: 40px;
 
   }   
 
